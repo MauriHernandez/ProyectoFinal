@@ -1,0 +1,497 @@
+INFO - 2023-11-29 00:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 00:36:09 --> Undefined property: stdClass::$apellidoPaterno
+in APPPATH\Controllers\DoctorController.php on line 144.
+ 1 APPPATH\Controllers\DoctorController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellidoPaterno', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\DoctorController.php', 144)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->descargarPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 00:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 00:41:42 --> The route for "admin/mostrarR" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/mostrarR')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\DoctorController.php(72): redirect('admin/mostrarR', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->recetas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 00:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 00:56:01 --> The route for "admin/mostrarR" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/mostrarR')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\DoctorController.php(71): redirect('admin/mostrarR', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->recetas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 00:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 00:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-29 00:58:14 --> mysqli_sql_exception: Table 'hospital.recetas' doesn't exist in C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT recetas....', 0)
+#1 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT recetas....')
+#2 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT recetas....')
+#3 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\app\Controllers\DoctorController.php(94): CodeIgniter\Database\BaseConnection->query('SELECT recetas....')
+#4 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarR()
+#5 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+#6 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\...')
+#9 {main}
+CRITICAL - 2023-11-29 00:58:14 --> Table 'hospital.recetas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\DoctorController.php(94): CodeIgniter\Database\BaseConnection->query('SELECT recetas.*, CONCAT(paciente.nombre, " ", paciente.apellidoP, " ", paciente.apellidoM) AS nombrePaciente
+                    FROM recetas 
+                    JOIN paciente ON recetas.nombrePaciente = paciente.id')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 00:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 01:01:38 --> Call to undefined method App\Controllers\DoctorController::AddPage()
+in APPPATH\Controllers\DoctorController.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->descargarPdf('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 01:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 01:02:10 --> Call to undefined method App\Controllers\DoctorController::SetFont()
+in APPPATH\Controllers\DoctorController.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->descargarPdf('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 01:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 02:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 02:53:52 --> The route for "doctor/mostrarA" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('doctor/mostrarA')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\DoctorController.php(130): redirect('doctor/mostrarA', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->apoyo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+CRITICAL - 2023-11-29 02:57:17 --> The route for "doctor/mostrarA" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('doctor/mostrarA')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\DoctorController.php(130): redirect('doctor/mostrarA', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->apoyo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 02:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 02:57:22 --> The route for "doctor/mostrarA" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('doctor/mostrarA')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\DoctorController.php(130): redirect('doctor/mostrarA', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->apoyo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 02:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-29 02:59:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3 in C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT recetas_...', 0)
+#1 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT recetas_...')
+#2 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT recetas_...')
+#3 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\app\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_...')
+#4 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+#5 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+#6 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\...')
+#9 {main}
+CRITICAL - 2023-11-29 02:59:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_apoyo.*, CONCAT(paciente.nombre, " ", paciente.apellidoP, " ", paciente.apellidoM) AS nombrePaciente
+                    FROM recetas_apoyo
+                    JOIN paciente ON recetas:apoyo.nombrePaciente = paciente.id')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+ERROR - 2023-11-29 03:00:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3 in C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT recetas_...', 0)
+#1 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT recetas_...')
+#2 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT recetas_...')
+#3 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\app\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_...')
+#4 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+#5 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+#6 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\...')
+#9 {main}
+CRITICAL - 2023-11-29 03:00:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_apoyo.*, CONCAT(paciente.nombre, " ", paciente.apellidoP, " ", paciente.apellidoM) AS nombrePaciente
+                    FROM recetas_apoyo
+                    JOIN paciente ON recetas:apoyo.nombrePaciente = paciente.id')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+ERROR - 2023-11-29 03:01:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3 in C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT recetas_...', 0)
+#1 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT recetas_...')
+#2 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT recetas_...')
+#3 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\app\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_...')
+#4 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+#5 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+#6 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\mcarl\OneDrive\Escritorio\Nuevo\project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\...')
+#9 {main}
+CRITICAL - 2023-11-29 03:01:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':apoyo.nombrePaciente = paciente.id' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\DoctorController.php(244): CodeIgniter\Database\BaseConnection->query('SELECT recetas_apoyo.*, CONCAT(paciente.nombre, " ", paciente.apellidoP, " ", paciente.apellidoM) AS nombrePaciente
+                    FROM recetas_apoyo
+                    JOIN paciente ON recetas:apoyo.nombrePaciente = paciente.id')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 03:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:04:32 --> Call to a member function findAll() on null
+in APPPATH\Controllers\DoctorController.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->apoyo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 03:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:28:09 --> Undefined variable $recetaId
+in APPPATH\Controllers\DoctorController.php on line 248.
+ 1 APPPATH\Controllers\DoctorController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recetaId', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\DoctorController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+CRITICAL - 2023-11-29 03:29:20 --> Undefined variable $recetaId
+in APPPATH\Controllers\DoctorController.php on line 248.
+ 1 APPPATH\Controllers\DoctorController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recetaId', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\DoctorController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+CRITICAL - 2023-11-29 03:30:13 --> Undefined variable $recetaId
+in APPPATH\Controllers\DoctorController.php on line 248.
+ 1 APPPATH\Controllers\DoctorController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recetaId', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\DoctorController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->mostrarA()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 03:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:51:16 --> Undefined array key "email"
+in APPPATH\Controllers\UserController.php on line 32.
+ 1 APPPATH\Controllers\UserController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\UserController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 03:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 03:51:42 --> Undefined property: stdClass::$idUsuario
+in APPPATH\Controllers\UserController.php on line 44.
+ 1 APPPATH\Controllers\UserController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idUsuario', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\UserController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 03:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 03:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 04:01:00 --> Call to a member function find() on null
+in APPPATH\Controllers\UserController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+INFO - 2023-11-29 04:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 04:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 11:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 12:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 13:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 14:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,28 @@
+CRITICAL - 2023-11-19 20:03:23 --> Undefined variable $pacientModel
+in APPPATH\Controllers\Admin.php on line 94.
+ 1 APPPATH\Controllers\Admin.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientModel', 'C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\app\\Controllers\\Admin.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->agregarD()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+CRITICAL - 2023-11-19 20:03:49 --> Invalid file: "common/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/head.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('common/head', [], true)
+ 3 APPPATH\Controllers\Admin.php(101): view('common/head')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->agregarD()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
+CRITICAL - 2023-11-19 20:04:17 --> Invalid file: "admin/menuA.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/menuA.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/menuA', [], true)
+ 3 APPPATH\Controllers\Admin.php(102): view('admin/menuA')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->agregarD()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\mcarl\\OneDrive\\Escritorio\\Nuevo\\project\\public\\index.php')
